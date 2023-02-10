@@ -30,7 +30,7 @@ const CountryDetail = () => {
             <h1>Country Name : {countryDetail1[0]?.name.common}</h1>
             <h3>Capital: {countryDetail1[0]?.capital}</h3>
             <h3>population: {countryDetail1[0]?.population}</h3>
-            <button style={buttonStyle}><a style={linkStyles} href={countryDetail1[0]?.maps.googleMaps}>Map</a></button>
+            <button style={buttonStyle}><a target="_blank" rel="noopener noreferrer" style={linkStyles} href={countryDetail1[0]?.maps.googleMaps}>Map</a></button>
         </div>
     );
 };
